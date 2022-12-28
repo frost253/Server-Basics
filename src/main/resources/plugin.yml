@@ -1,0 +1,23 @@
+name: ServerBasics
+version: '${project.version}'
+main: me.ryanlogan.serverbasics.ServerBasics
+api-version: 1.19
+authors: [ RyanLogan ]
+description: basic functions for the server including default commands
+commands:
+  timesetday:
+    description: sets world time to day
+    usage: /<command>
+    aliases: []
+  timesetnight:
+    description: sets world time to night
+    usage: /<command>
+    aliases: []
+  gamemodecreative:
+    description: sets player's gamemode to creative
+    usage: /<command>
+    aliases: []
+  gamemodesurvival:
+    description: sets player's gamemode to survival
+    usage: /<command>
+    aliases: []
